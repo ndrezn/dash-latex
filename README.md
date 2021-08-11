@@ -12,6 +12,31 @@ Get started with:
 2. Run `python usage.py`
 3. Visit http://localhost:8050 in your web browser
 
+## Getting started
+
+DashLatex works like any other Dash component:
+
+```python
+import dash_latex as dl
+import dash
+
+app = dash.Dash(__name__)
+
+app.layout = dl.DashLatex(
+    r"""
+    When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+    """,
+)
+
+if __name__ == "__main__":
+    app.run_server(debug=True)
+```
+
+Note that if using inline strings to write LaTeX, using raw strings is recommended, as LaTeX markup contains character sequences which Python will interpret as escape sequences.
+
+DashLatex exposes all of the declarative options available from Katex, which are documented [here](https://katex.org/docs/options.html). You can run `help(dl.DashLatex)` to see a list of parameters exposed in the Python API.
+
 ### Install dependencies
 
 If you have selected install_dependencies during the prompt, you can skip this part.
