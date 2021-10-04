@@ -2,4 +2,3 @@
 
 export(DashLatex)
 export(dashLatex)
-export(dashMathjax)

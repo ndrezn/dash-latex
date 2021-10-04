@@ -1,6 +1,6 @@
 {
     "name": "dash_latex",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "A Dash wrapper around React Latex",
     "repository": {
         "type": "git",
@@ -21,7 +21,7 @@
         "build": "npm run build:js && npm run build:backends",
         "build:activated": "npm run build:js && npm run build:backends-activated"
     },
-    "author": "Nathan Drezner <nathan@plot.ly>",
+    "author": "Nathan Drezner <nathan@drezner.xyz>",
     "license": "",
     "dependencies": {
         "katex": "^0.10.2",

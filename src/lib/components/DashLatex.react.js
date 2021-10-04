@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Latex from 'react-latex';
 
 /**
  * DashLatex is a Dash wrapper for ReactLatex (https://github.com/zzish/react-latex) which is itself a wrapper for Katex (https://katex.org/docs/options.html).
@@ -7,7 +8,6 @@ import PropTypes from 'prop-types';
 function DashLatex(props) {
     const {children, ...restProps} = props;
 
-    var Latex = require('react-latex');
     return <Latex {...restProps}>{children}</Latex>;
 }
 

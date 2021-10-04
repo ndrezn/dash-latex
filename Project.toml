@@ -1,8 +1,8 @@
 
 name = "DashLatex"
 uuid = "1b08a953-4be3-4667-9a23-fb0159e9428e"
-authors = ["Nathan Drezner <nathan@plot.ly>"]
-version = "0.0.1"
+authors = ["Nathan Drezner <nathan@drezner.xyz>"]
+version = "0.1.0"
 
 [deps]
 Dash = "1b08a953-4be3-4667-9a23-3db579824955"
