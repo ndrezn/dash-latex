@@ -1,4 +1,6 @@
 # DashLatex: Typeset LaTeX in Dash apps
+[![Downloads](https://pepy.tech/badge/dash-latex)](https://pepy.tech/project/dash-latex)
+[![Downloads](https://pepy.tech/badge/dash-latex/week)](https://pepy.tech/project/dash-latex)
 
 dash-latex is a Dash component library. Specifically, `DashLatex` is a light Dash wrapper for [ReactLatex](https://github.com/zzish/react-latex) which is itself a wrapper for [Katex](https://katex.org/docs/options.html).
 
