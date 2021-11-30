@@ -11,7 +11,7 @@ export dashlatex
 A DashLatex component.
 DashLatex is a Dash wrapper for ReactLatex (https://github.com/zzish/react-latex) which is itself a wrapper for Katex (https://katex.org/docs/options.html).
 Keyword arguments:
-- `children` (a list of or a singular dash component, string or number; optional): React element to be rendered inside the GSK Button component.
+- `children` (a list of or a singular dash component, string or number; optional): The LaTeX markup to be rendered.
 - `id` (String; optional): The ID used to identify this component in Dash callbacks.
 - `displayMode` (Bool; optional): displayMode: boolean (default: false). If true the math will be rendered in display mode. If false the math will be rendered in inline mode. Differences between the two modes include:
 Display mode starts in \\displaystyle, so \\int and \\sum are large, for example; while inline mode starts in \\textstyle, where subscripts and superscripts usually don't stack on top of operators like \\sum. You can always manually switch between \\displaystyle and \\textstyle using those commands.

@@ -16,7 +16,7 @@
           "name": "node"
         },
         "required": false,
-        "description": "React element to be rendered inside the GSK Button component."
+        "description": "The LaTeX markup to be rendered."
       },
       "setProps": {
         "type": {

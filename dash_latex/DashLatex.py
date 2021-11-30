@@ -10,7 +10,7 @@ DashLatex is a Dash wrapper for ReactLatex (https://github.com/zzish/react-latex
 Keyword arguments:
 
 - children (a list of or a singular dash component, string or number; optional):
-    React element to be rendered inside the GSK Button component.
+    The LaTeX markup to be rendered.
 
 - id (string; optional):
     The ID used to identify this component in Dash callbacks.

@@ -17,7 +17,7 @@ DashLatex.propTypes = {
      */
     id: PropTypes.string,
     /**
-     * React element to be rendered inside the GSK Button component.
+     * The LaTeX markup to be rendered.
      */
     children: PropTypes.node,
 

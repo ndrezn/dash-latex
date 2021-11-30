@@ -17,7 +17,7 @@ strict=NULL, throwOnError=NULL)
 }
 
 \arguments{
-\item{children}{A list of or a singular dash component, string or number. React element to be rendered inside the GSK Button component.}
+\item{children}{A list of or a singular dash component, string or number. The LaTeX markup to be rendered.}
 
 \item{id}{Character. The ID used to identify this component in Dash callbacks.}
 
